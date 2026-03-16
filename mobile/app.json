@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "Heyama Cloud",
+    "slug": "heyama-mobile",
+    "version": "1.0.0",
+    "scheme": "heyama",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.heyama.objects" },
+    "android": { "adaptiveIcon": { "backgroundColor": "#4f46e5" }, "package": "com.heyama.objects" },
+    "plugins": [
+      "expo-router",
+      ["expo-image-picker", { "photosPermission": "Allow Heyama to access your photos." }]
+    ]
+  }
+}
